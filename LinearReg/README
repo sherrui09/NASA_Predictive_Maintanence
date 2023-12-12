@@ -1,1 +1,13 @@
 
+***********************************************
+NASA Turbofan Engine Failure Prediction using Linear Regression
+***********************************************
+
+Introduction
+------------
+This repository contains the Python code for building and evaluating a Linear Regression model to predict turbofan engine failure from sensor data.
+
+Code Description
+-----------------
+After cleaning the data, each feature is normalized. Two linear models are the built, the first using all the features, and the second using Lasso regularization for variable selection.
+Both models are run on the training data at first, then extrapolated to the test data.
